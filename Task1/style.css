@@ -1,0 +1,290 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*zippy*/
+.zippy{
+    width: 100%;
+    height: 100%;
+    background-image: url('5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 550px 0;
+    font-weight: bold;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    background-color: #e6e6fa;
+    padding: 5px;
+    border-radius: 8px;
+}
+#navbar {
+    z-index: 10;
+    padding: 10px;
+    margin-top: 15px;
+    position: fixed;
+    width: 100%;
+    text-align: right;
+  }
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: 900;
+  }
+.heading{
+    width: 400px;
+    height: 110px;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    margin-left: 50px;
+    border-radius: 30px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.heading h1{
+    text-align: center;
+    padding: 8px;
+    font-style: italic;
+}
+.heading p{
+    text-align: center;
+}
+.zippy h2{
+    width: 450px;
+    padding: 13px;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    margin-left: 250px;
+    border-radius: 15px;
+    opacity: 0.8;
+    font-style: italic;
+}
+/*welcome*/
+.welcome h1{
+    text-align: center;
+}
+.welcome{
+    background-color: white;
+    padding: 40px;
+}
+.welcome .aligned{
+    margin-left: 450px;
+    width: 40%;
+    height: 50%;
+    align-items: center;
+    display: flex;
+}
+.welcome span{
+    font-size: 1.3em;
+    color: #787b5b;
+}
+/*hr*/
+hr{
+    margin-left: 29%;
+    margin-right: 29%;
+    font-weight: 900;
+    padding: 1px;
+    background-color: black;
+}
+/*Projects*/
+#Projects{
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+#Projects img{
+    border-radius: 20px;
+}
+#Projects h1{
+    text-align: center;
+    color: white;
+}
+.project_sub{
+    display: flex;
+    border-radius: 30px;
+}
+.project_sub div{
+    padding: 10px;
+    margin: 5px 20px 5px 20px;
+    position: relative;
+}
+.project_sub h2{
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #DCDCDC;
+    padding: 5px;
+    border-radius: 10px; 
+}
+/*Pricing*/
+#Pricing{
+    background-color: rgb(65, 65, 80);
+    margin-top: 25px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.Price{
+    display: flex;
+    text-align: center;
+    width: 95%;
+    background-color: #008B8B;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+.Price div{
+    font-size: 150%;
+    width: 370px;
+    height: 400px;
+    margin: 50px;
+    background-color: whitesmoke;
+}
+.Price h3{
+    padding: 5px;
+}
+.btn {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 19px;
+    cursor: pointer;
+    width: 70%;
+  }
+button:hover{
+    background-color: whitesmoke;
+}
+button:visited{
+    border-color: blue;
+}
+/*videos*/
+.vde_projects{
+    margin-top: 25px;
+    text-align: center;
+    background-color: DimGray;
+    margin-bottom: 10px;
+    padding-bottom: 35px;
+    border-radius: 20px;
+}
+.vde_projects h1{
+    
+    color: white;
+}
+.vdeo{
+    margin-left: 38px;
+    display: flex;  
+}
+.vdeo div{
+    margin: -40px 15px 15px 15px;
+}
+/*loc_sign*/
+#Contact{
+    margin-top: 15px;
+    text-align: center;
+    background-color: #008B8B;
+}
+#Contact h1{
+    color: white;
+    margin-top: 15px;
+}
+.loc_sign{
+    padding: 50px;
+    display: flex;
+    border-radius: 10px;
+}
+.loc_sign .Contact{
+    margin-left: 23px;
+    
+}
+/*Teams*/
+#Team h1{
+    text-align: center;
+}
+.image{
+    display: flex;
+    text-align: center;
+}
+.image div{
+    margin: 10px 102px 10px 102px;
+}
+#Team img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+/*login page*/
+.sign_form{
+    width: 32%;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    /*margin: 20px 30px 20px 30px;*/
+    margin-left: 30px;
+}
+.header{
+    display: flex;
+    cursor: pointer;
+}
+.header div{
+    padding: 15px 78px 15px 80px;
+    /*background-color: white;*/
+}
+.header .active{
+    background-color: DarkGray;
+}
+.content{
+    margin-top: 15px;
+}
+.content_part{
+    margin-bottom: 0px;
+    padding: 9px;
+}
+.content_part input{
+    width: 95%;
+    padding: 10px 0 10px 0;
+    font-size: medium;
+    border-radius: 7px;
+    border-color: grey;
+}
+.loc_sign .content_part button{
+    color: white;
+    font-size: medium;
+    text-transform: uppercase;
+    width: 95%;
+    padding: 10px 0 10px 0;
+    background-color: blue;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.content_part input[type="checkbox"]{
+    width: 30px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.content_part label{
+    float: left;
+    margin-bottom: 13px;
+}
+.sign_form .content > div.active{
+    display: block;
+}
+.sign_form .content > div{
+    display: none;
+}
+/*footer*/
+.foot div{
+    margin: 15px 128px 15px 128px;
+}
+.follow i{
+    margin-right: 9px;
+}
